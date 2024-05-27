@@ -1,0 +1,32 @@
+{
+  "name": "basicreactsol",
+  "version": "1.0.0",
+ 
+  "scripts": {
+    "start" : "parcel index.html",
+    "prod" :"parcel build index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "moumita",
+  "license": "ISC",
+  "description": "demo",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mou111/basicreactsol.git"
+  },
+  "keywords": [
+    "react"
+  ],
+  "bugs": {
+    "url": "https://github.com/mou111/basicreactsol/issues"
+  },
+  "homepage": "https://github.com/mou111/basicreactsol#readme",
+  "devDependencies": {
+    "parcel": "^2.12.0",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  }
+}

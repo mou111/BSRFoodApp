@@ -1,3 +1,132 @@
-#heading {
-    color: green
+.headercm
+{
+    display: flex;
+    justify-content: space-between;
+    border : 1px solid black;
+    padding: 10px;
+    padding-bottom: 10px;
+}
+.headerlogo
+{
+ width: 200px;
+ padding: 5px;
+ margin: 5px;
+ 
+}
+.nav-items > ul
+{
+    display: flex;
+    padding-left: 100px;
+}
+.nav-items > ul > li
+{
+    display: flex;
+    padding-left: 10px;
+}
+.footer-container
+{
+    margin:10px,10px;
+}
+.body
+{
+    margin-top: 10px;
+  
+    margin-bottom: 10px;
+}
+.search-container
+{
+    margin:10px;
+}
+.searchbutton
+{
+        margin-left: 5px;
+}
+.res-card
+{
+    margin: 10px;
+}
+.rest-container
+{   
+    display: flex; 
+    flex-wrap: wrap; 
+  
+}
+.res-card
+{  
+        
+    border: 1px solid black;
+    width :200px;
+    height:350px ;   
+    padding: 5px;
+    justify-content: space-between;
+}
+.res-img
+{   
+    width:100%;
+    height:40%;
+}
+.res-card :hover{
+    cursor: pointer;
+    border: 1px solid black;
+}
+.searchbutton:hover
+{
+cursor: pointer ;
+background-color: none;
+}
+.lgnBtn{
+    
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    
+}
+.lgnBtn1{
+    cursor: pointer;
+    border: none;
+    color: black;    
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    
+}
+
+
+/* CSS */
+.button-13 {
+  background-color: #fff;
+  border: 1px solid #d5d9d9;
+  border-radius: 8px;
+  box-shadow: rgba(213, 217, 217, .5) 0 2px 5px 0;
+  box-sizing: border-box;
+  color: #0f1111;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Amazon Ember",sans-serif;
+  font-size: 13px;
+  line-height: 29px;
+  padding: 0 10px 0 11px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  width: 100px;
+}
+
+.button-13:hover {
+  background-color: #f7fafa;
+}
+
+.button-13:focus {
+  border-color: #008296;
+  box-shadow: rgba(213, 217, 217, .5) 0 2px 5px 0;
+  outline: 0;
 }
